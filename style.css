@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+}
+
+canvas {
+    background-color: #80deea;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #006064;
+}
+
+h1 {
+    color: #006064;
+}
+
+#restartButton {
+    margin-top: 40px;
+    padding: 20px 20px;
+    font-size: 16px;
+    cursor: pointer;
+	text-align: center;
+	align-items: center;
+}
+
+}
+
+#startScreen {
+    color: #006064;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
